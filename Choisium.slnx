@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Choisium.Application/Choisium.Application.csproj" />
+  <Project Path="Choisium.Domain/Choisium.Domain.csproj" />
+  <Project Path="Choisium.Infrastructure/Choisium.Infrastructure.csproj" />
+  <Project Path="Choisium.Presentation/Choisium.Presentation.csproj" />
+</Solution>
