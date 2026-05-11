@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net10.0": {}
+    "net10.0": {
+      "Choisium.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/Choisium.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Choisium.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Choisium.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Choisium.Domain/Choisium.Domain.csproj",
+      "msbuildProject": "../Choisium.Domain/Choisium.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0": []
+    "net10.0": [
+      "Choisium.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\giova\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\giova\\OneDrive\\Documentos\\ProjectNET\\Choisium\\Choisium.Domain\\Choisium.Domain.csproj": {
+              "projectPath": "C:\\Users\\giova\\OneDrive\\Documentos\\ProjectNET\\Choisium\\Choisium.Domain\\Choisium.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

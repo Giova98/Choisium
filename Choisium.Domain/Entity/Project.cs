@@ -1,14 +1,13 @@
-namespace Domain.Entity
+namespace Choisium.Domain.Entity
 {
-    public class Project
+    public class Project : BaseEntity
     {
-        public int Id { get; set; }
-        public string? Description { get; set; }
+        public string Name {get; set;} = string.Empty;
+        public string Description { get; set; } = string.Empty;
         public StateProject StateProject { get; set; }
         public Guid UserId { get; set; }   
         public User User { get; set; } = null!; 
-
-        public ICollection<Task> Tasks { get; set; } = new List<Task>();
+        public ICollection<DecisionTask> DecisionTasks { get; set; } = new List<DecisionTask>();
     }
     public enum StateProject
     {

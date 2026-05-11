@@ -54,6 +54,12 @@ TemporaryDependencyNodeTargetIdentifier=net10.0
 /warnaserror+:NU1605,SYSLIB0011
 
 [sourceFiles]
+Abstraction/Infrastructure/
+ IBaseRepository.cs
+ IOptionRepository.cs
+ IProjectRepository.cs
+ ITaskRepository.cs
+ IUserRepository.cs
 Class1.cs
 obj/Debug/net10.0/
  .NETCoreApp,Version=v10.0.AssemblyAttributes.cs
@@ -61,6 +67,7 @@ obj/Debug/net10.0/
  Choisium.Application.GlobalUsings.g.cs
 
 [metadataReferences]
+../Choisium.Domain/obj/Debug/net10.0/ref/Choisium.Domain.dll
 <DOTNET>/packs/Microsoft.NETCore.App.Ref/10.0.5/ref/net10.0/
  Microsoft.CSharp.dll
  Microsoft.VisualBasic.Core.dll
