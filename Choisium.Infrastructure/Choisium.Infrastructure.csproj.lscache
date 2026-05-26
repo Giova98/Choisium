@@ -58,7 +58,9 @@ obj/Debug/net10.0/
  .NETCoreApp,Version=v10.0.AssemblyAttributes.cs
  Choisium.Infrastructure.AssemblyInfo.cs
  Choisium.Infrastructure.GlobalUsings.g.cs
-Persistance/ChoisiumDbContext.cs
+Persistance/
+ BaseRepository.cs
+ ChoisiumDbContext.cs
 
 [metadataReferences]
 ../

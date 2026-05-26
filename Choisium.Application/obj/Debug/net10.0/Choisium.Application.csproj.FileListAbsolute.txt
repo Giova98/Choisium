@@ -1,0 +1,16 @@
+C:\Users\giova\OneDrive\Documentos\ProjectNET\Choisium\Choisium.Application\bin\Debug\net10.0\Choisium.Application.deps.json
+C:\Users\giova\OneDrive\Documentos\ProjectNET\Choisium\Choisium.Application\bin\Debug\net10.0\Choisium.Application.dll
+C:\Users\giova\OneDrive\Documentos\ProjectNET\Choisium\Choisium.Application\bin\Debug\net10.0\Choisium.Application.pdb
+C:\Users\giova\OneDrive\Documentos\ProjectNET\Choisium\Choisium.Application\bin\Debug\net10.0\Choisium.Domain.dll
+C:\Users\giova\OneDrive\Documentos\ProjectNET\Choisium\Choisium.Application\bin\Debug\net10.0\Choisium.Domain.pdb
+C:\Users\giova\OneDrive\Documentos\ProjectNET\Choisium\Choisium.Application\obj\Debug\net10.0\Choisium.Application.csproj.AssemblyReference.cache
+C:\Users\giova\OneDrive\Documentos\ProjectNET\Choisium\Choisium.Application\obj\Debug\net10.0\Choisium.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\giova\OneDrive\Documentos\ProjectNET\Choisium\Choisium.Application\obj\Debug\net10.0\Choisium.Application.AssemblyInfoInputs.cache
+C:\Users\giova\OneDrive\Documentos\ProjectNET\Choisium\Choisium.Application\obj\Debug\net10.0\Choisium.Application.AssemblyInfo.cs
+C:\Users\giova\OneDrive\Documentos\ProjectNET\Choisium\Choisium.Application\obj\Debug\net10.0\Choisium.Application.csproj.CoreCompileInputs.cache
+C:\Users\giova\OneDrive\Documentos\ProjectNET\Choisium\Choisium.Application\obj\Debug\net10.0\Choisium.Application.sourcelink.json
+C:\Users\giova\OneDrive\Documentos\ProjectNET\Choisium\Choisium.Application\obj\Debug\net10.0\Choisium.F1146042.Up2Date
+C:\Users\giova\OneDrive\Documentos\ProjectNET\Choisium\Choisium.Application\obj\Debug\net10.0\Choisium.Application.dll
+C:\Users\giova\OneDrive\Documentos\ProjectNET\Choisium\Choisium.Application\obj\Debug\net10.0\refint\Choisium.Application.dll
+C:\Users\giova\OneDrive\Documentos\ProjectNET\Choisium\Choisium.Application\obj\Debug\net10.0\Choisium.Application.pdb
+C:\Users\giova\OneDrive\Documentos\ProjectNET\Choisium\Choisium.Application\obj\Debug\net10.0\ref\Choisium.Application.dll

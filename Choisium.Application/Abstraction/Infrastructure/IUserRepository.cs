@@ -1,4 +1,4 @@
-using Choisium.Domain;
+using Choisium.Domain.Entity;
 
 namespace Choisium.Application.Abstraction.Infrastructure
 {

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Choisium.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+954d860f7f4e22c7783161bdc45130077a060a0c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3fc7f7b4034a4561d523d627ae3d6e8c0ade8f4d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Choisium.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Choisium.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,12 @@
+C:\Users\giova\OneDrive\Documentos\ProjectNET\Choisium\Choisium.Domain\bin\Debug\net10.0\Choisium.Domain.deps.json
+C:\Users\giova\OneDrive\Documentos\ProjectNET\Choisium\Choisium.Domain\bin\Debug\net10.0\Choisium.Domain.dll
+C:\Users\giova\OneDrive\Documentos\ProjectNET\Choisium\Choisium.Domain\bin\Debug\net10.0\Choisium.Domain.pdb
+C:\Users\giova\OneDrive\Documentos\ProjectNET\Choisium\Choisium.Domain\obj\Debug\net10.0\Choisium.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\giova\OneDrive\Documentos\ProjectNET\Choisium\Choisium.Domain\obj\Debug\net10.0\Choisium.Domain.AssemblyInfoInputs.cache
+C:\Users\giova\OneDrive\Documentos\ProjectNET\Choisium\Choisium.Domain\obj\Debug\net10.0\Choisium.Domain.AssemblyInfo.cs
+C:\Users\giova\OneDrive\Documentos\ProjectNET\Choisium\Choisium.Domain\obj\Debug\net10.0\Choisium.Domain.csproj.CoreCompileInputs.cache
+C:\Users\giova\OneDrive\Documentos\ProjectNET\Choisium\Choisium.Domain\obj\Debug\net10.0\Choisium.Domain.sourcelink.json
+C:\Users\giova\OneDrive\Documentos\ProjectNET\Choisium\Choisium.Domain\obj\Debug\net10.0\Choisium.Domain.dll
+C:\Users\giova\OneDrive\Documentos\ProjectNET\Choisium\Choisium.Domain\obj\Debug\net10.0\refint\Choisium.Domain.dll
+C:\Users\giova\OneDrive\Documentos\ProjectNET\Choisium\Choisium.Domain\obj\Debug\net10.0\Choisium.Domain.pdb
+C:\Users\giova\OneDrive\Documentos\ProjectNET\Choisium\Choisium.Domain\obj\Debug\net10.0\ref\Choisium.Domain.dll
