@@ -1,4 +1,4 @@
-namespace Choisium.Application.Abstraction.Infrastructure
+namespace Choisium.Application.Abstraction.Repository
 {
     public interface ITaskRepository
     {

@@ -1,6 +1,6 @@
 using Choisium.Domain.Entity;
 
-namespace Choisium.Application.Abstraction.Infrastructure
+namespace Choisium.Application.Abstraction.Repository
 {
     public interface IBaseRepository<T> where T : BaseEntity
     {

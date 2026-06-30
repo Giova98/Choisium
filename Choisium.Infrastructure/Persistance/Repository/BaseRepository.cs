@@ -1,9 +1,9 @@
-using Choisium.Application.Abstraction.Infrastructure;
+using Choisium.Application.Abstraction.Repository;
 using Choisium.Domain.Entity;
 using Choisium.Application.Exceptions;
 using Microsoft.EntityFrameworkCore;
 
-namespace Choisium.Infrastructure.Persistance
+namespace Choisium.Infrastructure.Persistance.Repository
 {
     public class BaseRepository<T> : IBaseRepository<T> where T : BaseEntity
     {
@@ -40,7 +40,8 @@ namespace Choisium.Infrastructure.Persistance
 
         public virtual async Task<bool> DeleteAsync(Guid id)
         {
-            var existing = await GetByIdAsync(id);
+            // FindAsync primero busca en el cache del contexto, luego en la BD, y sí trackea
+            var existing = await _dbSet.FindAsync(id);
 
             if (existing == null)
             {
@@ -48,10 +49,9 @@ namespace Choisium.Infrastructure.Persistance
             }
 
             _dbSet.Remove(existing);
-
             return await SaveChangesAsync();
         }
-
+        
         protected async Task<bool> SaveChangesAsync()
         {
             try
