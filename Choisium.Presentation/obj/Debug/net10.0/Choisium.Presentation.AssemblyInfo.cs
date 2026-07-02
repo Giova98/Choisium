@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Choisium.Presentation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8342750e15116fc9adac1e0e87c9b2909d8d3fcc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+728fbae368c014086f80ae336371ee77bc291f7f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Choisium.Presentation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Choisium.Presentation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

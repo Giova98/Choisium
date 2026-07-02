@@ -13,8 +13,5 @@ namespace Choisium.Application.Abstraction.Repository
         /// Obtiene un proyecto por Id, pero solo si pertenece al usuario (seguridad)
         /// </summary>
         Task<Project?> GetByIdAndUserIdAsync(Guid projectId, Guid userId);
-
-        // Podrías agregar más adelante:
-        // Task<bool> IsNameUniqueForUserAsync(string name, Guid userId);
     }
 }

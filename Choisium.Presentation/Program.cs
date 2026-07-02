@@ -21,6 +21,8 @@ builder.Services.AddDbContext<ChoisiumDbContext>(options =>
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped(typeof(IBaseRepository<>), typeof(BaseRepository<>));
 builder.Services.AddScoped<IProjectRepository, ProjectRepository>();
+builder.Services.AddScoped<ITaskRepository, TaskRepository>();
+builder.Services.AddScoped<IOptionRepository, OptionRepository>();
 
 // Servicios de Seguridad
 builder.Services.AddScoped<IPasswordHasher, PasswordHasher>();
@@ -35,6 +37,12 @@ builder.Services.AddScoped<ICurrentUserService, CurrentUserService>();
 
 // Project Service
 builder.Services.AddScoped<IProjectService, ProjectService>();
+
+// Task service 
+builder.Services.AddScoped<ITaskService, TaskService>();
+
+// Option service
+builder.Services.AddScoped<IOptionService, OptionService>();
 
 // Controllers y documentación
 builder.Services.AddControllers();
