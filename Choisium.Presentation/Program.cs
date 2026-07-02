@@ -6,6 +6,7 @@ using Choisium.Application.Service;
 using Choisium.Infrastructure.ExternalService;
 using Choisium.Infrastructure.Persistance;
 using Choisium.Infrastructure.Persistance.Repository;
+using Choisium.Infrastructure.Security;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -49,6 +50,19 @@ builder.Services.AddControllers();
 builder.Services.AddOpenApi();
 
 #endregion
+
+// Leer configuración de Polly
+var pollySettings = builder.Configuration
+    .GetSection("PollySettings")
+    .Get<PollySettings>()!;
+
+builder.Services.AddHttpClient<IQuoteService, QuoteService>(client =>
+{
+    client.BaseAddress = new Uri("https://zenquotes.io/");
+    client.DefaultRequestHeaders.Add("Accept", "application/json");
+})
+.AddPolicyHandler(ResiliencePolicies.GetRetryPolicy(pollySettings))
+.AddPolicyHandler(ResiliencePolicies.GetCircuitBreakerPolicy(pollySettings));
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>

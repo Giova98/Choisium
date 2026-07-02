@@ -1,6 +1,6 @@
 using Choisium.Application.Abstraction.OtherService;
 
-namespace Choisium.Infrastructure.ExternalService
+namespace Choisium.Infrastructure.Security
 {
     public class PasswordHasher : IPasswordHasher
     {

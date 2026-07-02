@@ -6,7 +6,7 @@ using Choisium.Domain.Entity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 
-namespace Choisium.Infrastructure.ExternalService
+namespace Choisium.Infrastructure.Security
 {
     public class JwtService : IJwtService
     {

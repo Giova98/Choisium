@@ -11,8 +11,9 @@
           "BCrypt.Net-Next": "4.2.0",
           "Choisium.Application": "1.0.0",
           "Choisium.Domain": "1.0.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "10.0.7",
-          "Microsoft.EntityFrameworkCore.Tools": "10.0.7",
+          "Microsoft.EntityFrameworkCore.SqlServer": "10.0.8",
+          "Microsoft.EntityFrameworkCore.Tools": "10.0.8",
+          "Microsoft.Extensions.Http.Polly": "10.0.9",
           "System.IdentityModel.Tokens.Jwt": "8.18.0"
         },
         "runtime": {
@@ -380,22 +381,22 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore/10.0.7": {
+      "Microsoft.EntityFrameworkCore/10.0.8": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Abstractions": "10.0.7"
+          "Microsoft.EntityFrameworkCore.Abstractions": "10.0.8"
         },
         "runtime": {
           "lib/net10.0/Microsoft.EntityFrameworkCore.dll": {
-            "assemblyVersion": "10.0.7.0",
-            "fileVersion": "10.0.726.21808"
+            "assemblyVersion": "10.0.8.0",
+            "fileVersion": "10.0.826.23019"
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Abstractions/10.0.7": {
+      "Microsoft.EntityFrameworkCore.Abstractions/10.0.8": {
         "runtime": {
           "lib/net10.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
-            "assemblyVersion": "10.0.7.0",
-            "fileVersion": "10.0.726.21808"
+            "assemblyVersion": "10.0.8.0",
+            "fileVersion": "10.0.826.23019"
           }
         }
       },
@@ -403,7 +404,7 @@
         "dependencies": {
           "Humanizer.Core": "2.14.1",
           "Microsoft.CodeAnalysis.CSharp.Workspaces": "4.5.0",
-          "Microsoft.EntityFrameworkCore.Relational": "10.0.7",
+          "Microsoft.EntityFrameworkCore.Relational": "10.0.8",
           "Microsoft.Extensions.DependencyModel": "8.0.0",
           "Mono.TextTemplating": "2.2.1"
         },
@@ -414,30 +415,30 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Relational/10.0.7": {
+      "Microsoft.EntityFrameworkCore.Relational/10.0.8": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "10.0.7"
+          "Microsoft.EntityFrameworkCore": "10.0.8"
         },
         "runtime": {
           "lib/net10.0/Microsoft.EntityFrameworkCore.Relational.dll": {
-            "assemblyVersion": "10.0.7.0",
-            "fileVersion": "10.0.726.21808"
+            "assemblyVersion": "10.0.8.0",
+            "fileVersion": "10.0.826.23019"
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.SqlServer/10.0.7": {
+      "Microsoft.EntityFrameworkCore.SqlServer/10.0.8": {
         "dependencies": {
           "Microsoft.Data.SqlClient": "6.1.1",
-          "Microsoft.EntityFrameworkCore.Relational": "10.0.7"
+          "Microsoft.EntityFrameworkCore.Relational": "10.0.8"
         },
         "runtime": {
           "lib/net10.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {
-            "assemblyVersion": "10.0.7.0",
-            "fileVersion": "10.0.726.21808"
+            "assemblyVersion": "10.0.8.0",
+            "fileVersion": "10.0.826.23019"
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Tools/10.0.7": {
+      "Microsoft.EntityFrameworkCore.Tools/10.0.8": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "8.0.0"
         }
@@ -447,6 +448,18 @@
           "lib/net8.0/Microsoft.Extensions.DependencyModel.dll": {
             "assemblyVersion": "8.0.0.0",
             "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "Microsoft.Extensions.Http.Polly/10.0.9": {
+        "dependencies": {
+          "Polly": "7.2.4",
+          "Polly.Extensions.Http": "3.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.Polly.dll": {
+            "assemblyVersion": "10.0.9.0",
+            "fileVersion": "10.0.926.27113"
           }
         }
       },
@@ -553,6 +566,25 @@
           "lib/netstandard2.0/Mono.TextTemplating.dll": {
             "assemblyVersion": "2.2.0.0",
             "fileVersion": "2.2.1.1"
+          }
+        }
+      },
+      "Polly/7.2.4": {
+        "runtime": {
+          "lib/netstandard2.0/Polly.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.2.4.982"
+          }
+        }
+      },
+      "Polly.Extensions.Http/3.0.0": {
+        "dependencies": {
+          "Polly": "7.2.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Polly.Extensions.Http.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
           }
         }
       },
@@ -785,19 +817,19 @@
       "path": "microsoft.data.sqlclient.sni.runtime/6.0.2",
       "hashPath": "microsoft.data.sqlclient.sni.runtime.6.0.2.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore/10.0.7": {
+    "Microsoft.EntityFrameworkCore/10.0.8": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-G6yclVO5/csPzzsymV0SemY2NDqE31CP5M3jprF5IuO9wJsh4aUOfYD8HCLuDmM1D1CfReegVic48O2r79d46Q==",
-      "path": "microsoft.entityframeworkcore/10.0.7",
-      "hashPath": "microsoft.entityframeworkcore.10.0.7.nupkg.sha512"
+      "sha512": "sha512-EJx+fIBMgBlgD+ublKCn+GTOJkw3UqV7xOjYWBRVdUYyIm8UfvAsmSOPFiIInsWTHyMEYUJ9gCJY1jwX+6UB7w==",
+      "path": "microsoft.entityframeworkcore/10.0.8",
+      "hashPath": "microsoft.entityframeworkcore.10.0.8.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Abstractions/10.0.7": {
+    "Microsoft.EntityFrameworkCore.Abstractions/10.0.8": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-TuxExnfIS/bSq3z2CbH0LwZH1oyj9iHhSGneU4fpxl3ikjZGZdSae9gcfnImV1rufH8f/ab1NnHwyL2BLyeZOg==",
-      "path": "microsoft.entityframeworkcore.abstractions/10.0.7",
-      "hashPath": "microsoft.entityframeworkcore.abstractions.10.0.7.nupkg.sha512"
+      "sha512": "sha512-jbKDXWPZQhuPHygMnwzNOqxBADVcpRVytcKYZsA++QqhPkpF93Ta8o5mbJQGrARSjlkr9WtOaADV97EDMOZ7DA==",
+      "path": "microsoft.entityframeworkcore.abstractions/10.0.8",
+      "hashPath": "microsoft.entityframeworkcore.abstractions.10.0.8.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore.Design/8.0.0": {
       "type": "package",
@@ -806,26 +838,26 @@
       "path": "microsoft.entityframeworkcore.design/8.0.0",
       "hashPath": "microsoft.entityframeworkcore.design.8.0.0.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Relational/10.0.7": {
+    "Microsoft.EntityFrameworkCore.Relational/10.0.8": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-midwPufIwXhOJcVhaZpCZGNbjy2QoPfHI+70nw2dGcoULEW9DybMvMPYkRjOJV0eI46a1oVFhU4lFYDEx6YUbg==",
-      "path": "microsoft.entityframeworkcore.relational/10.0.7",
-      "hashPath": "microsoft.entityframeworkcore.relational.10.0.7.nupkg.sha512"
+      "sha512": "sha512-UU3diAD2wwZveye2rnrwaF/wvJ9tm5iL2fuY9TTap6/iGQK1OO29M1BzXZRlRPVH/dByt5w/pISBSFtyR7hTqw==",
+      "path": "microsoft.entityframeworkcore.relational/10.0.8",
+      "hashPath": "microsoft.entityframeworkcore.relational.10.0.8.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.SqlServer/10.0.7": {
+    "Microsoft.EntityFrameworkCore.SqlServer/10.0.8": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-jci/dpjLIZyrp0Kbt0kr1lh+7BXbJ3wNk+vTwS/Se65grEJSBC+eE2UAQsi/xSNB5lHP2dysyOMHugkpFwQwNA==",
-      "path": "microsoft.entityframeworkcore.sqlserver/10.0.7",
-      "hashPath": "microsoft.entityframeworkcore.sqlserver.10.0.7.nupkg.sha512"
+      "sha512": "sha512-A+FLIsTH9l5DG2iD6QW6Mfwlvr+BjWme/jJ2hvwmmENTr7lR1UWmgCtKCjDYcHxqdAD15bb4PgQnSzw12DV/pw==",
+      "path": "microsoft.entityframeworkcore.sqlserver/10.0.8",
+      "hashPath": "microsoft.entityframeworkcore.sqlserver.10.0.8.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Tools/10.0.7": {
+    "Microsoft.EntityFrameworkCore.Tools/10.0.8": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Ui7+Y+E2KwwQvRlbOclMP8HAGXrQFQcOu3NLpKlYdmd5pbhlueyLhnW3SBv1WuXALKESGHR3lMqeANNnl/02Bw==",
-      "path": "microsoft.entityframeworkcore.tools/10.0.7",
-      "hashPath": "microsoft.entityframeworkcore.tools.10.0.7.nupkg.sha512"
+      "sha512": "sha512-bKtoSviiOUX75jM5bzSnBGPUjb2CfbBHdUDsjYv2X3/G3ZMMG18VpJMMAcP0tD8Xepu+wLl2soNJiWH6XxXWdQ==",
+      "path": "microsoft.entityframeworkcore.tools/10.0.8",
+      "hashPath": "microsoft.entityframeworkcore.tools.10.0.8.nupkg.sha512"
     },
     "Microsoft.Extensions.DependencyModel/8.0.0": {
       "type": "package",
@@ -833,6 +865,13 @@
       "sha512": "sha512-NSmDw3K0ozNDgShSIpsZcbFIzBX4w28nDag+TfaQujkXGazBm+lid5onlWoCBy4VsLxqnnKjEBbGSJVWJMf43g==",
       "path": "microsoft.extensions.dependencymodel/8.0.0",
       "hashPath": "microsoft.extensions.dependencymodel.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Http.Polly/10.0.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bwfSg08DwmF6sR3HMLBLklxfHSoIgQFTsBqY+omxbNqVDPtjoGiWqMcZ5r+gSXRNEaptsXdVeN3QwHAKPspB+w==",
+      "path": "microsoft.extensions.http.polly/10.0.9",
+      "hashPath": "microsoft.extensions.http.polly.10.0.9.nupkg.sha512"
     },
     "Microsoft.Identity.Client/4.73.1": {
       "type": "package",
@@ -903,6 +942,20 @@
       "sha512": "sha512-KZYeKBET/2Z0gY1WlTAK7+RHTl7GSbtvTLDXEZZojUdAPqpQNDL6tHv7VUpqfX5VEOh+uRGKaZXkuD253nEOBQ==",
       "path": "mono.texttemplating/2.2.1",
       "hashPath": "mono.texttemplating.2.2.1.nupkg.sha512"
+    },
+    "Polly/7.2.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bw00Ck5sh6ekduDE3mnCo1ohzuad946uslCDEENu3091+6UKnBuKLo4e+yaNcCzXxOZCXWY2gV4a35+K1d4LDA==",
+      "path": "polly/7.2.4",
+      "hashPath": "polly.7.2.4.nupkg.sha512"
+    },
+    "Polly.Extensions.Http/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-drrG+hB3pYFY7w1c3BD+lSGYvH2oIclH8GRSehgfyP5kjnFnHKQuuBhuHLv+PWyFuaTDyk/vfRpnxOzd11+J8g==",
+      "path": "polly.extensions.http/3.0.0",
+      "hashPath": "polly.extensions.http.3.0.0.nupkg.sha512"
     },
     "System.ClientModel/1.5.1": {
       "type": "package",

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Choisium.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+728fbae368c014086f80ae336371ee77bc291f7f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6b0152e1bb74625ad3cda186efd85ed912514d1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Choisium.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Choisium.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

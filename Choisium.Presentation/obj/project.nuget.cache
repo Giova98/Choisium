@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "mMqikRpR+m4=",
+  "dgSpecHash": "4wdIIy5pE/I=",
   "success": true,
   "projectFilePath": "C:\\Users\\giova\\OneDrive\\Documentos\\ProjectNET\\Choisium\\Choisium.Presentation\\Choisium.Presentation.csproj",
   "expectedPackageFiles": [
@@ -9,7 +9,7 @@
     "C:\\Users\\giova\\.nuget\\packages\\bcrypt.net-next\\4.2.0\\bcrypt.net-next.4.2.0.nupkg.sha512",
     "C:\\Users\\giova\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\giova\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\10.0.8\\microsoft.aspnetcore.authentication.jwtbearer.10.0.8.nupkg.sha512",
-    "C:\\Users\\giova\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.5\\microsoft.aspnetcore.openapi.10.0.5.nupkg.sha512",
+    "C:\\Users\\giova\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.8\\microsoft.aspnetcore.openapi.10.0.8.nupkg.sha512",
     "C:\\Users\\giova\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
     "C:\\Users\\giova\\.nuget\\packages\\microsoft.bcl.cryptography\\9.0.4\\microsoft.bcl.cryptography.9.0.4.nupkg.sha512",
     "C:\\Users\\giova\\.nuget\\packages\\microsoft.build.framework\\18.0.2\\microsoft.build.framework.18.0.2.nupkg.sha512",
@@ -21,13 +21,14 @@
     "C:\\Users\\giova\\.nuget\\packages\\microsoft.codeanalysis.workspaces.msbuild\\5.0.0\\microsoft.codeanalysis.workspaces.msbuild.5.0.0.nupkg.sha512",
     "C:\\Users\\giova\\.nuget\\packages\\microsoft.data.sqlclient\\6.1.1\\microsoft.data.sqlclient.6.1.1.nupkg.sha512",
     "C:\\Users\\giova\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\6.0.2\\microsoft.data.sqlclient.sni.runtime.6.0.2.nupkg.sha512",
-    "C:\\Users\\giova\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.7\\microsoft.entityframeworkcore.10.0.7.nupkg.sha512",
-    "C:\\Users\\giova\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\10.0.7\\microsoft.entityframeworkcore.abstractions.10.0.7.nupkg.sha512",
-    "C:\\Users\\giova\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\10.0.7\\microsoft.entityframeworkcore.analyzers.10.0.7.nupkg.sha512",
-    "C:\\Users\\giova\\.nuget\\packages\\microsoft.entityframeworkcore.design\\10.0.7\\microsoft.entityframeworkcore.design.10.0.7.nupkg.sha512",
-    "C:\\Users\\giova\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\10.0.7\\microsoft.entityframeworkcore.relational.10.0.7.nupkg.sha512",
-    "C:\\Users\\giova\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\10.0.7\\microsoft.entityframeworkcore.sqlserver.10.0.7.nupkg.sha512",
-    "C:\\Users\\giova\\.nuget\\packages\\microsoft.extensions.dependencymodel\\10.0.7\\microsoft.extensions.dependencymodel.10.0.7.nupkg.sha512",
+    "C:\\Users\\giova\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.8\\microsoft.entityframeworkcore.10.0.8.nupkg.sha512",
+    "C:\\Users\\giova\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\10.0.8\\microsoft.entityframeworkcore.abstractions.10.0.8.nupkg.sha512",
+    "C:\\Users\\giova\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\10.0.8\\microsoft.entityframeworkcore.analyzers.10.0.8.nupkg.sha512",
+    "C:\\Users\\giova\\.nuget\\packages\\microsoft.entityframeworkcore.design\\10.0.8\\microsoft.entityframeworkcore.design.10.0.8.nupkg.sha512",
+    "C:\\Users\\giova\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\10.0.8\\microsoft.entityframeworkcore.relational.10.0.8.nupkg.sha512",
+    "C:\\Users\\giova\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\10.0.8\\microsoft.entityframeworkcore.sqlserver.10.0.8.nupkg.sha512",
+    "C:\\Users\\giova\\.nuget\\packages\\microsoft.extensions.dependencymodel\\10.0.8\\microsoft.extensions.dependencymodel.10.0.8.nupkg.sha512",
+    "C:\\Users\\giova\\.nuget\\packages\\microsoft.extensions.http.polly\\10.0.9\\microsoft.extensions.http.polly.10.0.9.nupkg.sha512",
     "C:\\Users\\giova\\.nuget\\packages\\microsoft.identity.client\\4.73.1\\microsoft.identity.client.4.73.1.nupkg.sha512",
     "C:\\Users\\giova\\.nuget\\packages\\microsoft.identity.client.extensions.msal\\4.73.1\\microsoft.identity.client.extensions.msal.4.73.1.nupkg.sha512",
     "C:\\Users\\giova\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.18.0\\microsoft.identitymodel.abstractions.8.18.0.nupkg.sha512",
@@ -41,6 +42,8 @@
     "C:\\Users\\giova\\.nuget\\packages\\microsoft.visualstudio.solutionpersistence\\1.0.52\\microsoft.visualstudio.solutionpersistence.1.0.52.nupkg.sha512",
     "C:\\Users\\giova\\.nuget\\packages\\mono.texttemplating\\3.0.0\\mono.texttemplating.3.0.0.nupkg.sha512",
     "C:\\Users\\giova\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\giova\\.nuget\\packages\\polly\\7.2.4\\polly.7.2.4.nupkg.sha512",
+    "C:\\Users\\giova\\.nuget\\packages\\polly.extensions.http\\3.0.0\\polly.extensions.http.3.0.0.nupkg.sha512",
     "C:\\Users\\giova\\.nuget\\packages\\system.clientmodel\\1.5.1\\system.clientmodel.1.5.1.nupkg.sha512",
     "C:\\Users\\giova\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
     "C:\\Users\\giova\\.nuget\\packages\\system.composition\\9.0.0\\system.composition.9.0.0.nupkg.sha512",
@@ -55,5 +58,18 @@
     "C:\\Users\\giova\\.nuget\\packages\\system.security.cryptography.pkcs\\9.0.4\\system.security.cryptography.pkcs.9.0.4.nupkg.sha512",
     "C:\\Users\\giova\\.nuget\\packages\\system.security.cryptography.protecteddata\\9.0.4\\system.security.cryptography.protecteddata.9.0.4.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Microsoft.OpenApi' 2.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-v5pm-xwqc-g5wc",
+      "projectPath": "C:\\Users\\giova\\OneDrive\\Documentos\\ProjectNET\\Choisium\\Choisium.Presentation\\Choisium.Presentation.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\giova\\OneDrive\\Documentos\\ProjectNET\\Choisium\\Choisium.Presentation\\Choisium.Presentation.csproj",
+      "libraryId": "Microsoft.OpenApi",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
 }
